@@ -1,0 +1,123 @@
+/* The following stylesheet works best when html page is viewed on a desktop screen with the browser window maximized */
+
+body{
+	margin: 10px;
+	padding: 10px;
+	font-size: 120%;
+}
+
+header{
+	text-align: center;
+	height: 180px;
+	width: 99%;
+	margin-bottom: 0;
+	background: #7fff006e;
+	background: url("images/flywheel.jpg") 0 0 no-repeat;
+	background-size: 100% auto;
+	color: white;
+	padding: 10px;
+}
+
+nav a{
+	margin: 5%;
+	background: #ffffff7d;
+	color: #000000;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 1% 4% 1% 4%;
+	border-radius: 15px;
+}
+
+.active{
+	background: #ffffff;
+	color: #6d026d;
+	font-weight: bold;
+}
+
+h1{
+	margin-bottom: 3%;
+	text-transform: uppercase;
+}
+
+.left img {
+	display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border: solid 3px #000000;
+}
+
+aside{
+	float: left;
+	width: 23%;
+	height: 1000px;
+	background: #fbe6938a;
+}
+
+.right{
+	float: left;
+	display: inline-block;
+	width: 72%;
+	margin-left: 2%;
+	text-align: justify;
+}
+
+table {
+    font-family: Helvetica, sans-serif;
+    font-size: 90%;
+    width: 90%;
+    margin-top: 5%;
+    margin-left: 5%;
+    font-weight: 550;
+}
+
+tr{
+    opacity: 0.6;
+}
+
+th {
+	color: #000000d1;
+    padding: 2% 4% 2% 2%;
+    font-size: 120%;
+    line-height: 120%;
+    background-color: #735b258f;  /*fallback background color for older browsers*/
+    background: -webkit-linear-gradient(to bottom, #735b25bf, #c3d64400); 
+	background: -moz-linear-gradient(to bottom, #735b25bf, #c3d64400);
+    background: linear-gradient(to bottom, #735b25bf, #c3d64400);
+    border-bottom: solid 3px #5d2904;
+    text-shadow: 1px 1px 2px #00000066;    
+}
+
+tr:first-of-type{
+	opacity: 1;
+}
+
+th:last-of-type {
+    border-radius: 0px 10px 0px 0px;
+}
+th:first-of-type {
+    border-radius: 10px 0px 0px 0px;
+}
+
+td {
+	color: #000000;
+    font-size: 80%;
+    padding: 1.5% 4% 1.5% 2%;
+    line-height: 80%;
+    background: #de1c2e52;
+    border-radius: 2px;
+}
+
+td:first-child, th:first-child{
+	text-align: left;
+}
+
+td:nth-child(2), td:last-child, th:nth-child(2), th:last-child{
+	text-align: center;
+}
+
+tr:hover{
+	opacity: 1;
+} 
